@@ -42,7 +42,7 @@ setuptools.setup(
     url="https://github.com/mhchia/py-libp2p-daemon-bindings",
     packages=setuptools.find_packages(exclude=["tests", "tests.*"]),
     install_requires=[
-        "anyio>=1.2.2,<2.0.0",
+        "anyio",
         "async-exit-stack>=1.0.1,<2.0.0",
         "async-generator>=1.10,<2.0",
         "base58>=1.0.3",
